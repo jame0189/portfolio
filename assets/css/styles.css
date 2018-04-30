@@ -1,0 +1,188 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: black;
+    /*    text-shadow: 2px 1px grey;*/
+}
+
+#navcol-1 {}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dda032;
+}
+
+.navbar-light .navbar-brand {
+    background-image: url("../../assets/img/mylogo.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 50px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 40px;
+}
+
+.fixed-top {
+    padding: 25px;
+    background-color: #0F0F0F;
+}
+
+.content {
+    margin-top: 552px;
+}
+
+#courses {
+    background-color: #233040;
+}
+
+.tittle {
+    color: yellowgreen;
+}
+
+/*
+#overview{
+    background-color: green;
+}
+*/
+
+.overview_text {
+    /*   background-color: rgba(89,89,89,0.25);*/
+    font-size: 17px;
+
+}
+
+.testimonials_text {
+    /*    background-color:beige;*/
+}
+
+/*
+#title{
+    background-color: rgba(72,74,70,0.5);
+    border-radius: 15px;
+    font-size: 18px;
+}
+*/
+
+.enimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption:hover {
+    color: #75b545;
+
+}
+
+
+#courses {
+    color: white;
+
+}
+
+.blockquote {
+    background-color: rgba(206, 233, 179, 0.25);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+blockquote:hover {
+    background-color: rgba(206, 233, 179, 0.70);
+}
+
+li {
+    list-style: none;
+
+
+}
+
+.sidebox {
+    border-radius: 10px;
+}
+
+figure p {
+    padding: 15px;
+}
+
+figure p:hover {
+    background-color: #cee9c5;
+    border-radius: 10px;
+
+}
+
+#portfolio section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img {
+    padding-left: 10px;
+}
+
+.portfolio-block form {
+    /*    background-color: #c13f21;*/
+    /*    color: #99873d;*/
+    border-radius: 10px;
+}
+
+.fa {
+    color: #dda032;
+}
+
+.text-muted {
+    color: orangered;
+}
+
+
+footer .fa {
+    padding-left: 35px;
+
+    font-size: 30px;
+}
+
+/*
+.img-responsive{
+
+  padding-top: 40px;
+  max-width: 100%;
+
+  display: block;
+  text-align: center;
+}
+*/
+
+/*
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    #title{
+        font-size: 16px;
+    }
+    #overview{
+        
+
+    }
+    .overview_text{
+     
+
+       font-size: 17px; 
+    }
+    
+    
+}
+*/
